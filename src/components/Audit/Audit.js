@@ -1,6 +1,6 @@
 import React from 'react';
 import './Audit.css';
-import Auditimage from '../../img/AuditMobile.svg';
+import Auditimage from '../../img/AuditMobile.png';
 
 const Audit = () => {
   return (
