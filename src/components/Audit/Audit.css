@@ -43,7 +43,6 @@
   padding: 15px 30px;
   border-radius: 30px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
 }
 img.audit-image {
   width: 100%;
@@ -57,13 +56,9 @@ img.audit-image {
   }
 
   .Audit-heading {
-    padding: 0.2rem 5vw;
-    font-style: normal;
-    font-weight: 700;
     font-size: 1.75rem;
-    line-height: 25px;
-    text-align: center;
-    color: #ffffff;  }
+    margin: 1.5rem 0;
+     }
 
   .Audit-text {
     font-size: 18px;
