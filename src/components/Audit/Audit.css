@@ -48,7 +48,7 @@
 img.audit-image {
   width: 100%;
   margin:  auto;
-  height: auto;
+  height: 128px;
 }
 
 @media (min-width: 768px) {
@@ -77,7 +77,7 @@ img.audit-image {
 }
 
   img.audit-image {
-    width: 78%; 
+    width: 75%; 
     height: 450px;
   }
 }
