@@ -1,6 +1,6 @@
 import React from 'react';
 import './Audit.css';
-import Auditimage from '../../img/AuditMobile.png';
+import Auditimage from '../../img/AuditMobile.svg';
 
 const Audit = () => {
   return (
@@ -14,7 +14,7 @@ const Audit = () => {
             <span>  Our smart contracts have undergone rigorous unit testing and have been subjected to several independent audits conducted by <strong>“The ARCADIA GROUP”.</strong> </span></p>
 
           </div>
-          <a href="#page" className="button">Learn more</a>
+          <a href="https://github.com/TheArcadiaGroup/publications/blob/main/audits/FXDX%20Final.pdf" className="button">Learn more</a>
     </div>
   );
 };
