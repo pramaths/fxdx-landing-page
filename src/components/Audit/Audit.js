@@ -11,7 +11,7 @@ const Audit = () => {
             <img className="audit-image" src={Auditimage} alt="Audit terminal" />
              <div className="subheading-container">
             <p className="Audit-text">
-            <span className="paragraph-start">  Our smart contracts have undergone rigorous unit testing and have been subjected to several independent audits conducted by <strong>“The ARCADIA GROUP”.</strong> </span></p>
+            <span>  Our smart contracts have undergone rigorous unit testing and have been subjected to several independent audits conducted by <strong>“The ARCADIA GROUP”.</strong> </span></p>
 
           </div>
           <a href="#page" className="button">Learn more</a>
