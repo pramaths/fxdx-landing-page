@@ -52,8 +52,10 @@ img.audit-image {
   }
 
   .Audit-heading {
-    font-size: 1.75rem;
-    margin: 1.5rem 0;
+     font-size: 60px;
+      text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
      }
 
   .Audit-text {
