@@ -17,7 +17,7 @@
   font-family: "Euclid Circular A";
   margin-bottom: 20px;
   margin-top: 10px;
-  text-indent: 20px;
+  text-indent: 16px;
 }
 .subheading-container {
   display: flex;
@@ -25,8 +25,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .button {
@@ -52,7 +52,7 @@ img.audit-image {
   }
 
   .Audit-heading {
-     font-size: 60px;
+     font-size: 64px;
       text-align: center;
   text-transform: capitalize;
   color: #ffffff;
