@@ -41,10 +41,6 @@
   transition: background-color 0.3s ease;
 }
 
-.button:hover {
-  background-color: #0fcb12;
-}
-
 img.audit-image {
   width: 100%;
   margin:  auto;
@@ -66,7 +62,11 @@ img.audit-image {
     max-width: 800px;
     text-align: center;
   }
-  
+  .subheading-container {
+    font-size: 40px;
+      margin-right: 30px;
+  margin-left: 30px;
+  }
 
   img.audit-image {
     width: 75%; 
