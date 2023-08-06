@@ -1,11 +1,13 @@
 .Audit-section {
-  background-color: #090909;
+
   color: #fff;
   padding: 70px 20px;
   text-align: center;
 }
 
 .Audit-heading {
+   font-weight: 700;
+  font-size: 60px;
   font-size: 36px;
   font-weight: bold;
   margin-top: 20px;
