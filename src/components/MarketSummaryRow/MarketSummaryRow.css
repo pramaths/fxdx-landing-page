@@ -1,0 +1,50 @@
+.market-summary-row {
+  display: grid;
+  padding: 0 1rem;
+  grid-template-columns: 3fr 2fr 2fr 2fr 3fr 2fr;
+  font-size: 1rem;
+  align-items: flex-start;
+}
+
+.market-summary-row .asset-title {
+  display: flex;
+  align-items: center;
+}
+
+.market-summary-row .asset-title * {
+  padding: 0 0.1rem;
+}
+
+.market-summary-row .asset-title .asset-name {
+  font-weight: 500;
+}
+
+.market-summary-row .asset-title .asset-symbol {
+  color: #aaa;
+}
+
+.market-summary-row .asset-title .asset-logo {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.2rem;
+}
+
+.market-summary-row .asset-price {
+  color: #ffffff;
+}
+
+.market-summary-row .asset-marketcap {
+  color: #c6c6c6;
+}
+
+.market-summary-row .asset-btn {
+  font-weight: 700;
+}
+
+.red-text {
+  color: #f93333;
+}
+
+.green-text {
+  color: #22c761;
+}

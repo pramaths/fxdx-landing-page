@@ -1,0 +1,75 @@
+.Audit-section {
+  background-color: #090909;
+  color: #fff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.Audit-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Euclid Circular A";
+}
+
+.Audit-text {
+  font-size: 18px;
+  font-family: "Euclid Circular A";
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-indent: 20px;
+}
+.subheading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #fff;
+  color: #0d0e0e;
+  font-size: 18px;
+  font-family: "Euclid Circular A";
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0fcb12;
+}
+
+img.audit-image {
+  width: 100%;
+  margin:  auto;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .Audit-section {
+    padding: 120px 20px;
+  }
+
+  .Audit-heading {
+    font-size: 48px;
+  }
+
+  .Audit-text {
+    font-size: 18px;
+    text-indent: 18px;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  img.audit-image {
+    width: 60%; 
+    height: 400px;
+  }
+}

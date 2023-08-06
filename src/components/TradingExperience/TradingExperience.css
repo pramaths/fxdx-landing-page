@@ -1,0 +1,296 @@
+.trader-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10vw;
+  margin-top: 5rem;
+}
+
+.trader-section .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.25rem;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto 3.5rem;
+  max-width: 40rem;
+  margin-top: 6.5rem;
+}
+
+.trader-section .trading-terminal {
+  margin: 0;
+}
+
+.trader-section .trading-terminal img {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.trader-section .image-feature .title {
+  margin-top: 0;
+}
+
+.trader-section .caption {
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 55rem;
+  font-weight: 500;
+  line-height: 30px;
+  color: #e7e7e7;
+  margin-top: 4.25rem;
+}
+
+.trader-section .feature-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 6.5rem;
+  padding: 0 10%;
+}
+
+.trader-section .feature-list .feature {
+  flex-basis: 30%;
+  /* max-width: 20rem; */
+}
+
+.trader-section .feature {
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ababb9;
+}
+
+.trader-section .feature span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ffffff;
+  /* display: flex; */
+  align-items: center;
+}
+
+.trader-section .feature img {
+  margin-right: 0.35rem;
+  height: 16px;
+  vertical-align: text-top;
+  padding-top: 0.1rem;
+}
+
+.trader-section .image-feature-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.trader-section .image-feature-list .image-feature {
+  background: #171717;
+  border-radius: 1rem;
+  width: 50%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* padding: 2.5rem 2rem 0rem; */
+}
+.trader-section .image-feature-list .image-feature:nth-child(1) {
+  margin-right: 0.65rem;
+}
+.trader-section .image-feature-list .image-feature:nth-child(2) {
+  margin-left: 0.65rem;
+}
+
+.trader-section .image-feature-list .image-feature .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 90%;
+  text-align: left;
+  padding: 2.5rem 2rem 0;
+  margin: 0;
+}
+
+.trader-section .image-feature-list .image-feature .image-center {
+  /* width: 100%; */
+  height: 100%;
+}
+.trader-section .image-feature-list .image-feature img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.trader-section .image-feature-list .image-feature .image {
+  margin-top: auto;
+  width: 97%;
+  margin-left: 2.9%;
+}
+
+.trader-section .image-feature-list .image-feature .image-center {
+  margin-top: auto;
+  margin: 0 1rem;
+}
+
+.trader-section .image-feature-list .image-feature .caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 30px;
+  width: 90%;
+  color: #ababb9;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+  .trader-section .caption {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .trader-section .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+    margin-top: 3rem;
+  }
+  .trader-section > * {
+    margin: 0.5rem 0;
+  }
+  .trader-section .trading-terminal {
+    display: contents;
+  }
+
+  .trader-section .caption {
+    width: 80%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 1rem;
+    /* or 133% */
+
+    text-align: center;
+  }
+
+  .trader-section .feature-list {
+    margin-bottom: 0;
+    margin-top: 4.5rem;
+  }
+
+  .trader-section .image-feature-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .trader-section .image-feature-list .image-feature {
+    width: auto;
+    height: 100%;
+  }
+  .trader-section .image-feature-list .image-feature .image {
+    margin-bottom: -0.35rem;
+  }
+  .trader-section .image-feature-list .image-feature .image-center {
+    margin-bottom: -0.25rem;
+  }
+  .trader-section .image-feature-list .image-feature .image img {
+    margin: 0;
+    border-radius: 1rem;
+  }
+  .trader-section .image-feature-list .image-feature:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+
+  .trader-section .image-feature-list .image-feature .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+  }
+
+  .trader-section .image-feature-list .image-feature .caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 18px;
+    color: #ababb9;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .trader-section .feature-list .feature {
+    flex-basis: 45%;
+    font-size: 0.85rem;
+  }
+
+  .trader-section .feature span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 12px;
+  }
+
+  .trader-section .feature img {
+    height: 12px;
+  }
+  .trader-section .image-feature-list .image-feature:nth-child(1) {
+    margin-right: 0;
+  }
+  .trader-section .image-feature-list .image-feature:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .trader-section .feature-list {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  /* .trader-section .image-feature-list .image-feature{
+        height: 35rem;
+    } */
+  /* .trader-section .image-feature-list .image-feature .image-center img{
+        height: 82%;
+    } */
+  .trader-section .image-feature-list .image-feature .image {
+    height: 100%;
+  }
+  .trader-section .image-feature-list {
+    width: 95%;
+  }
+  .trader-section .image-feature-list .image-feature {
+    max-width: 43rem;
+    /* max-height: 48rem; */
+  }
+  .trader-section .image-feature-list .image-feature .image img {
+    margin: auto;
+    object-fit: contain;
+    height: max-content;
+    margin-top: 5rem;
+  }
+  .trader-section {
+    padding: initial;
+  }
+  /* .trader-section .trading-terminal img{
+        width: 100%;
+        padding: 0;
+        margin:0;
+    } */
+}

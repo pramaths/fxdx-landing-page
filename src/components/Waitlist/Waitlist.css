@@ -1,0 +1,77 @@
+
+.Page.waitlist .logo{
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.Page.waitlist .waitlist-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* .default-container.waitlist {
+    max-width: 126.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+}
+.page-layout.waitlist {
+    min-height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    padding-top: 4.65rem;
+}
+.Page.waitlist {
+    max-width: 108.5rem;
+    margin: auto;
+    padding-top: 4.65rem;
+} */
+.Page.waitlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto 15vw; */
+    font-family: 'Euclid Circular';
+    height: 100vh;
+    flex-direction: column;
+}
+
+.Page.waitlist .waitlist-container .gw-text-2xl{
+    font-size: 1.75rem;
+}
+
+.Page.waitlist .waitlist-container .gw-text-sm{
+    font-size: 1rem;
+}
+.Page.waitlist .waitlist-container .gw-mt-4:nth-child(6) {
+    display: none;
+}
+.Page.waitlist .waitlist-container .gw-max-w-\[600px\] {
+    max-width: 575px;
+}
+.Page.waitlist .waitlist-container .gw-text-sm.gw-font-semibold {
+   margin-top: 10rem;
+}
+
+.Page.waitlist .gw-font-bold.gw-text-2xl.gw-pb-2.gw-text-center{
+    margin-bottom: 0.75rem;
+}
+.Page.waitlist .gw-text-center.gw-pt-1.gw-w-full {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#primaryCTA{
+    margin-bottom: 0.75rem;
+}
+
+#getWaitlistContainer input{
+    max-width: -webkit-fill-available;
+}
+
+.Page.waitlist #getWaitlistContainer{
+    font-family: 'Euclid Circular';
+}

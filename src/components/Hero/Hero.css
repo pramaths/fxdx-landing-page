@@ -1,0 +1,267 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.hero-section .introducution-wrapper{
+  text-decoration: none;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #2f2f2f;
+  border-radius: 28.0149px;
+  width: 15rem;
+  padding: 0.5rem 0.25rem;
+  margin-bottom: 4.5rem;
+}
+
+.introduction span {
+  display: flex;
+  align-items: flex-start;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.0939px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.trading {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8vh;
+  margin-top: 1rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.supercharged,
+.trading {
+  font-size: 7.5rem;
+}
+
+.supercharged {
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(90.1deg, #6700ff, #fa00ff, #00daff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.35rem;
+  background-size: 200%;
+  animation: flow 5s ease infinite;
+  /* margin-bottom: 2rem; */
+}
+
+.hero-section .trading-terminal-phone {
+  display: none;
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.hero .supercharged.small {
+  display: none;
+}
+
+.hero-caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #ababb9;
+  width: 50rem;
+  line-height: 30px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.links {
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.hero-section .links a {
+  text-decoration: none;
+  background: #000000;
+  border: 1px solid #e2e2e3;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 35px;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.links a:nth-child(1) {
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #e2e2e3;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 35px;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 0.75rem;
+}
+
+/* .hero-section .trading-terminal{
+    margin-top: 3.5rem;
+} */
+
+/* .border{
+  border:10px solid black;
+  border-image:  url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 25s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23ffffff' /%3E%3Cstop offset='25%25' stop-color='%23ffffff' /%3E%3Cstop offset='50%25' stop-color='%23ffffff' /%3E%3Cstop offset='100%25' stop-color='%23ffffff' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='1.5' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+  margin-top: 3.5rem;
+} */
+/* div {
+        width: 50%;
+        height: auto;
+        position: relative;
+      } */
+
+.hero-section .trading-terminal img {
+  width: 80vw;
+  border-radius: 5rem;
+  margin: 1rem;
+}
+
+.hero h1 {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+  .hero .supercharged,
+  .hero .trading {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    margin-bottom: 2rem;
+  }
+  .hero-section .hero-caption {
+    width: 80%;
+    margin: 0 10vw;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .hero .supercharged {
+    display: none;
+  }
+  .hero .supercharged.small {
+    display: block;
+  }
+
+  .hero .trading {
+    margin-bottom: 0rem;
+    font-size: 15vw;
+    line-height: 7vw;
+  }
+
+  .hero .supercharged {
+    font-size: 17.5vw;
+  }
+
+  .hero .hero-caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+    color: #ababb9;
+  }
+
+  .hero-section .links {
+    justify-content: center;
+    width: 80%;
+  }
+
+  .hero-section .links a:nth-child(1) {
+    /* margin: 0; */
+    width: 5rem;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 1rem;
+  }
+  .hero-section .links a:nth-child(2) {
+    width: 3rem;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hero .trading {
+    font-size: 12.5vw;
+    line-height: 12.5vw;
+  }
+
+  .hero .supercharged.small {
+    font-size: 12.5vw;
+    line-height: 15vw;
+  }
+
+  .hero-section .trading-terminal {
+    display: none;
+  }
+
+  .hero-section .trading-terminal-phone {
+    display: contents;
+  }
+
+  .hero-section .trading-terminal-phone video {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-section .trading-terminal img {
+    width: 1440px;
+  }
+
+  .supercharged,
+  .trading {
+    font-size: 7vw;
+  }
+}

@@ -1,0 +1,301 @@
+.liquidity-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10vw;
+  margin-top: 7rem;
+}
+
+.liquidity-section .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+  margin: 5.5rem auto;
+  width: 45rem;
+}
+
+.liquidity-section .trading-terminal {
+  display: flex;
+  justify-content: center;
+}
+
+.liquidity-section .trading-terminal img {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.liquidity-section .caption {
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  /* width: 65rem; */
+  font-weight: 500;
+  line-height: 30px;
+  color: #e7e7e7;
+  margin-top: 4.25rem;
+}
+
+.liquidity-section .feature-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 6.5rem;
+  padding: 0 10%;
+}
+
+.liquidity-section .feature-list .feature {
+  flex-basis: 30%;
+  /* max-width: 20rem; */
+}
+
+.liquidity-section .feature {
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ababb9;
+}
+
+.liquidity-section .feature span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  color: #ffffff;
+  /* display: flex; */
+  align-items: center;
+}
+
+.liquidity-section .feature img {
+  margin-right: 0.35rem;
+  height: 16px;
+  vertical-align: text-top;
+  padding-top: 0.1rem;
+}
+
+.liquidity-section .image-feature-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.liquidity-section .image-feature-list .image-feature {
+  background: #171717;
+  border-radius: 1rem;
+  width: 50%;
+  /* height: 31rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.liquidity-section .image-feature-list .image-feature:nth-child(1) {
+  margin-right: 0.65rem;
+  width: 100%;
+}
+.liquidity-section .image-feature-list .image-feature:nth-child(2) {
+  margin-left: 0.65rem;
+  width: 100%;
+}
+
+.liquidity-section .image-feature-list .image-feature .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 90%;
+  text-align: left;
+  padding: 2.5rem 2rem 0;
+  margin: 0;
+}
+
+.liquidity-section .image-feature-list .image-feature img {
+  width: 100%;
+  height: 100%;
+}
+
+.liquidity-section .image-feature-list .image-feature .image {
+  margin-top: auto;
+  width: 97%;
+  margin-left: 2.9%;
+}
+.liquidity-section .image-feature-list .image-feature .image img {
+  border-bottom-right-radius: 1rem;
+}
+
+.liquidity-section .image-feature-list .image-feature .image-center {
+  border-radius: 1rem;
+  margin-top: auto;
+  margin: 0 1rem;
+}
+
+.liquidity-section .image-feature-list .image-feature .image-center img {
+  border-radius: 1rem;
+}
+.liquidity-section .image-feature-list .image-feature .caption {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 30px;
+  width: 90%;
+  color: #ababb9;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.liquidity-section .trading-terminal {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .liquidity-section .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    width: auto;
+    margin: 2.5rem 0;
+  }
+
+  .liquidity-section > * {
+    margin: 0.5rem 0;
+  }
+
+  .liquidity-section .caption {
+    width: 80%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+    text-align: center;
+  }
+
+  .liquidity-section .feature-list {
+    margin-top: 4.5rem;
+  }
+
+  .liquidity-section .image-feature-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .liquidity-section .image-feature-list .image-feature {
+    width: auto;
+    height: 100%;
+  }
+
+  .liquidity-section .feature-list {
+    margin-bottom: 0;
+  }
+
+  .liquidity-section .image-feature-list .image-feature:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+
+  .liquidity-section .image-feature-list .image-feature:nth-child(2) {
+    margin-bottom: 2rem;
+  }
+
+  .liquidity-section .image-feature-list .image-feature .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+  }
+
+  .liquidity-section .image-feature-list .image-feature .caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 18px;
+    color: #ababb9;
+    padding: 1rem 1rem 0 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .liquidity-section .feature-list .feature {
+    flex-basis: 45%;
+    font-size: 0.85rem;
+  }
+
+  .liquidity-section .feature span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 12px;
+  }
+
+  .liquidity-section .feature img {
+    height: 12px;
+  }
+
+  .liquidity-section .image-feature-list .image-feature .image {
+    margin-bottom: -0.3rem;
+  }
+  .liquidity-section .image-feature-list .image-feature .image-center {
+    /* margin-bottom: -0.30rem; */
+  }
+  .liquidity-section .image-feature-list .image-feature .image img {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  .liquidity-section .image-feature-list .image-feature:nth-child(1) {
+    margin-right: 0;
+  }
+  .liquidity-section .image-feature-list .image-feature:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .liquidity-section .feature-list {
+    padding: 0%;
+  }
+}
+
+@media (min-width: 1040px) {
+  .liquidity-section .caption {
+    width: 65rem;
+  }
+}
+@media (min-width: 1600px) {
+  .liquidity-section {
+    padding: inherit;
+  }
+
+  .liquidity-section .image-feature-list {
+    margin-top: 1rem;
+    width: 95%;
+  }
+
+  .liquidity-section .trading-terminal img {
+    width: 100%;
+  }
+
+  .liquidity-section .image-feature-list .image-feature .image {
+    height: 100%;
+  }
+
+  .liquidity-section .image-feature-list {
+    width: 95%;
+  }
+
+  .liquidity-section .image-feature-list .image-feature {
+    max-width: 43rem;
+    max-height: 48rem;
+  }
+  
+}

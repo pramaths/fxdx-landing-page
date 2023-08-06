@@ -1,0 +1,116 @@
+.market-summary-card-wrapper p {
+  padding: 0;
+  margin: 0;
+}
+
+.market-summary-card-wrapper {
+  background-color: #222124;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.market-summary-card-wrapper .market-summary-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-title {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-title
+  .market-summary-card-title-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-title
+  .market-summary-card-title-top
+  .asset-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.4rem;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-title
+  .market-summary-card-title-top
+  .asset-symbol {
+  font-size: 1.4rem;
+  color: #bdbdbd;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-title
+  .market-summary-card-title-down
+  .asset-name {
+  font-size: 1.2rem;
+}
+
+.market-summary-card-wrapper .market-summary-card-row .market-summary-graph {
+  margin: 0.5rem 0;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-body-left
+  .market-summary-card-body-down
+  .asset-price {
+  font-size: 1.2em;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-body-left
+  .market-summary-card-body-top
+  .asset-price-label {
+  font-size: 0.7rem;
+  color: #8b8b8b;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-body-right {
+  text-align: end;
+  padding-right: 0.5rem;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-body-right
+  .market-summary-card-body-top
+  .asset-change-label {
+  font-size: 0.7rem;
+  color: #8b8b8b;
+}
+
+.market-summary-card-wrapper
+  .market-summary-card-row
+  .market-summary-card-body-right
+  .market-summary-card-body-down
+  .asset-change {
+  font-size: 1.2rem;
+}
+
+.market-summary-card-body-top,
+.market-summary-card-title-top {
+  margin: 0.2rem 0;
+}

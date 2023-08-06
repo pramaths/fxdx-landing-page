@@ -1,0 +1,8 @@
+.App {
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Euclid Circular A";
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+}
