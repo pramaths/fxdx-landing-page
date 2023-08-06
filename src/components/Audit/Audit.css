@@ -55,8 +55,14 @@ img.audit-image {
   }
 
   .Audit-heading {
-    font-size: 48px;
-  }
+ width: auto;
+    padding: 0.2rem 5vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;  }
 
   .Audit-text {
     font-size: 18px;
