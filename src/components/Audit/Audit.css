@@ -57,7 +57,7 @@ img.audit-image {
   }
 
   .Audit-heading {
-    font-size: 48px;
+    font-size: 60px;
   }
 
   .Audit-text {
@@ -68,7 +68,7 @@ img.audit-image {
   }
 
   img.audit-image {
-    width: 70%; 
-    height: 400px;
+    width: 80%; 
+    height: 416px;
   }
 }
