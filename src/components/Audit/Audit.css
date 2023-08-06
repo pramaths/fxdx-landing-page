@@ -66,15 +66,7 @@ img.audit-image {
     max-width: 800px;
     text-align: center;
   }
-  .subheading-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
+  
 
   img.audit-image {
     width: 75%; 
