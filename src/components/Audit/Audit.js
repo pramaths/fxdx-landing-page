@@ -7,7 +7,7 @@ const Audit = () => {
     <div className="Audit-section">
       
           <h1 className="Audit-heading">Security First</h1>
-          <div className="subheading-container">
+          <div className="subheading-custom">
             <img className="audit-image" src={Auditimage} alt="Audit terminal" />
             <br/>
             <p className="Audit-text">
