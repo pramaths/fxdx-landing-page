@@ -29,7 +29,9 @@
   margin-left:40px;
   text-align:center;
 }
-
+.subheading-text span {
+  display: block;
+}
 .button {
   background-color: #fff;
   color: #0d0e0e;
